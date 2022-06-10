@@ -5,6 +5,10 @@
   --muted: #a1b0bf;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fff;
 }
@@ -20,6 +24,13 @@ ul,
 a,
 span {
   font-family: "Mulish", sans-serif;
+}
+
+.boton__chat {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  z-index: 10;
 }
 
 p {
@@ -118,6 +129,11 @@ hr {
   color: #f3f3f3;
   background-color: var(--mainColor);
   transition: 0.3s ease-in-out;
+}
+
+.pad {
+  padding: 50px;
+  background-color: #ff9800;
 }
 
 .hidden {
