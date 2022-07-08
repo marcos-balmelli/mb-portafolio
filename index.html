@@ -194,6 +194,29 @@
                 transform: rotateY(0deg);
             }
         }
+        
+         @media (max-width: 500px) {
+
+            .area-tarjeta,
+            .tarjeta,
+            .cara {
+                cursor: pointer;
+                width: var(--w);
+                min-width: 50px;
+                height: var(--h);
+            }
+
+            .cara {
+                position: absolute;
+                backface-visibility: hidden;
+                box-shadow: inset 0 0 0 0px white;
+                font-size: 200%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        
     </style>
 
     <section class="cuerpo root" id="jugar">
